@@ -1,0 +1,154 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Probability of depression, by age group and sex, household population aged 12 and over, selected provinces, territories and health regions (June 2003 boundaries)",13100607,105-0205,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310060701",1;2;3;4;8;9;10;15,"ARCHIVED -  a cube publicly available but no longer being updated","Every 2 years",2003-01-01,2003-01-01,5
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,4;8;9;10,,
+2,"Age group",,,
+3,Sex,,,
+4,"Probability of depression",2;3,,
+5,Characteristics,5;6;7;14,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,"Newfoundland and Labrador",[10],2,,,,,,
+1,"Health and Community Services St. John's Region, Newfoundland and Labrador",[1001],3,2,,,,,
+1,"Health and Community Services Eastern Region, Newfoundland and Labrador",[1002],4,2,,,,,
+1,"Health and Community Services Central Region, Newfoundland and Labrador",[1003],5,2,,,,,
+1,"Health and Community Services Western Region, Newfoundland and Labrador",[1004],6,2,,,,,
+1,"Grenfell Regional Health Services Board, Newfoundland and Labrador",[1005],7,2,,,,,
+1,"Health Labrador Corporation, Newfoundland and Labrador",[1006],8,2,,,,,
+1,"Prince Edward Island",[11],9,,,,,,
+1,"West Prince, Prince Edward Island",[1101],10,9,,,,,
+1,"East Prince, Prince Edward Island",[1102],11,9,,,,,
+1,"Queens, Prince Edward Island",[1103],12,9,,,,,
+1,"Kings, Prince Edward Island",[1104],13,9,,,,,
+1,"New Brunswick",[13],21,,,,,,
+1,"Region 1, New Brunswick",[1301],22,21,,,,,
+1,"Region 2, New Brunswick",[1302],23,21,,,,,
+1,"Region 3, New Brunswick",[1303],24,21,,,,,
+1,"Region 4, New Brunswick",[1304],25,21,,,,,
+1,"Region 5, New Brunswick",[1305],26,21,,,,,
+1,"Region 6, New Brunswick",[1306],27,21,,,,,
+1,"Region 7, New Brunswick",[1307],28,21,,,,,
+1,"Ontario by District Health Council",[35],48,,,11,,,
+1,"Durham-Haliburton-Kawartha and Pine Ridge District Health Council, Ontario",[3503],51,48,,,,,
+1,"Toronto District Health Council, Ontario",[3504],52,48,,,,,
+1,"Simcoe York District Health Council, Ontario",[3505],53,48,,,,,
+1,"Halton-Peel District Health Council, Ontario",[3506],54,48,,,,,
+1,"Hamilton District Health Council, Ontario",[3508],56,48,,,,,
+1,"Niagara District Health Council, Ontario",[3509],57,48,,,,,
+1,"Grand River District Health Council, Ontario",[3510],58,48,,,,,
+1,"Thames Valley District Health Council, Ontario",[3511],59,48,,,,,
+1,"Grey Bruce Huron Perth District Health Council, Ontario",[3513],61,48,,,,,
+1,"Ontario by Health Unit",[35],65,,,11,,,
+1,"Brant County Health Unit, Ontario",[3527],67,65,,,,,
+1,"Durham Regional Health Unit, Ontario",[3530],68,65,,,,,
+1,"Elgin-St Thomas Health Unit, Ontario",[3531],69,65,,,,,
+1,"Grey Bruce Health Unit, Ontario",[3533],70,65,,,,,
+1,"Haldimand-Norfolk Health Unit, Ontario",[3534],71,65,,,,,
+1,"Haliburton, Kawartha, Pine Ridge District Health Unit, Ontario",[3535],72,65,,,,,
+1,"Halton Regional Health Unit, Ontario",[3536],73,65,,,,,
+1,"City of Hamilton Health Unit, Ontario",[3537],74,65,,,,,
+1,"Huron County Health Unit, Ontario",[3539],76,65,,,,,
+1,"Middlesex-London Health Unit, Ontario",[3544],81,65,,,,,
+1,"Muskoka-Parry Sound Health Unit, Ontario",[3545],82,65,,,,,
+1,"Niagara Regional Area Health Unit, Ontario",[3546],83,65,,,,,
+1,"Oxford County Health Unit, Ontario",[3552],87,65,,,,,
+1,"Peel Regional Health Unit, Ontario",[3553],88,65,,,,,
+1,"Perth District Health Unit, Ontario",[3554],89,65,,,,,
+1,"Peterborough County-City Health Unit, Ontario",[3555],90,65,,,,,
+1,"Simcoe County District Health Unit, Ontario",[3560],94,65,,,,,
+1,"York Regional Health Unit, Ontario",[3570],101,65,,,,,
+1,"City of Toronto Health Unit, Ontario",[3595],102,65,,,,,
+1,Saskatchewan,[47],116,,,12,,,
+1,"Cypress Regional Health Authority, Saskatchewan",[4703],119,116,,,,,
+1,"Kelsey Trail Regional Health Authority, Saskatchewan",[4708],124,116,,,,,
+1,"Mamawetan/Keewatin/Athabasca, Saskatchewan",[4714],127,116,,13,,,
+1,Alberta,[48],131,,,12,,,
+1,"Chinook Regional Health Authority, Alberta",[4820],132,131,,,,,
+1,"Palliser Health Region, Alberta",[4821],133,131,,,,,
+1,"Calgary Health Region, Alberta",[4822],134,131,,,,,
+1,"David Thompson Regional Health Authority, Alberta",[4823],135,131,,,,,
+1,"East Central Health, Alberta",[4824],136,131,,,,,
+1,"Capital Health, Alberta",[4825],137,131,,,,,
+1,"Aspen Regional Health Authority, Alberta",[4826],138,131,,,,,
+1,"Peace Country Health, Alberta",[4827],139,131,,,,,
+1,"Northern Lights Health Region, Alberta",[4828],140,131,,,,,
+1,Yukon,[60],158,,,,,,
+1,Yukon,[6001],159,158,,,,,
+1,"Northwest Territories",[61],160,,,,,,
+1,"Northwest Territories",[6101],161,160,,,,,
+1,Nunavut,[62],162,,,,,,
+1,Nunavut,[6201],163,162,,,,,
+2,"Total, 12 years and over",,1,,,,,,
+2,"12 to 19 years",,2,1,,,,,
+2,"12 to 14 years",,3,2,,,,,
+2,"15 to 19 years",,4,2,,,,,
+2,"20 to 34 years",,5,1,,,,,
+2,"20 to 24 years",,6,5,,,,,
+2,"25 to 34 years",,7,5,,,,,
+2,"35 to 44 years",,8,1,,,,,
+2,"45 to 64 years",,9,1,,,,,
+2,"45 to 54 years",,10,9,,,,,
+2,"55 to 64 years",,11,9,,,,,
+2,"65 years and over",,12,1,,,,,
+2,"65 to 74 years",,13,12,,,,,
+2,"75 years and over",,14,12,,,,,
+3,"Both sexes",,1,,,,,,
+3,Males,,2,1,,,,,
+3,Females,,3,1,,,,,
+4,"Total population for the variable probability of depression",,1,,,,,,
+4,"Probability of depression, less than 0.9",,2,1,,,,,
+4,"Probability of depression, 0.9 or greater",,4,1,,,,,
+4,"Probability of depression, not stated",,5,1,,,,,
+5,"Number of persons",,1,,,,,,
+5,"Low 95% confidence interval, number of persons",,2,,,,,,
+5,"High 95% confidence interval, number of persons",,3,,,,,,
+5,"Coefficient of variation for number of persons",,4,,,,,,
+5,Percent,,5,,,,,,
+5,"Low 95% confidence interval, percent",,6,,,,,,
+5,"High 95% confidence interval, percent",,7,,,,,,
+5,"Coefficient of variation for percent",,8,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3226,"Canadian Community Health Survey - Annual Component"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Source: Statistics Canada, Canadian Community Health Survey, 2003"
+2,"Population aged 12 and over with a probability of 0.9 or greater of having experienced a major depressive episode in the past 12 months."
+3,"Based on responses to the short-form Composite International Diagnostic Interview (CIDI). Respondents are classified according to the probability that they would have been diagnosed as having experienced a major depressive episode in the past 12 months, if they had completed the long-form CIDI."
+4,"Provincial estimates are provided only for those provinces in which all health regions selected the ""Probability of depression"" module as optional content."
+5,"When comparing estimates, it is important to use confidence intervals to determine if differences between values are statistically significant. Confidence intervals describe sampling variability and give an indication of the precision of a given estimate. Bootstrapping techniques were used to produce the coefficient of variation (CV) and 95% confidence intervals (CIs)."
+6,"Data with a coefficient of variation (CV) from 16.6% to 33.3% are identified as follows: (E) use with caution."
+7,"Data with a coefficient of variation (CV) greater than 33.3% were suppressed due to extreme sampling variability and are identified as follows: (F) too unreliable to be published."
+8,"Health regions are defined by the provincial ministries of health. These are legislated administrative areas in all provinces except Nova Scotia. In Nova Scotia, the Ministry of Health uses statistical zones rather than its legislated administrative areas; the zones are aggregations of the nine district health authorities."
+9,"For complete Canadian coverage, each of the northern territories also represents a health region."
+10,"The health regions presented in this table are based on boundaries and names in effect as of June 2003."
+11,"In Ontario, Public Health Units (PHU) administer health promotion and disease prevention programs, and District Health Councils (DHC) are advisory, health planning organizations."
+12,"In Saskatchewan and Alberta, health regions are referred to as Health Authorities (HA) or Regional Health Authorities (RHA)."
+13,"To avoid data suppression, northern regions in Saskatchewan have been grouped with neighbouring regions, as follows: Athabasca Health Authority (4713) is combined with Mamawetan Churchill River Regional Health Authority (4711) and Keewatin Yatthé Regional Health Authority (4712) and referred to as Mamawetan/Keewatin/Athabasca (4714)."
+14,"The following standard symbols are used in this Statistics Canada table : (..) for figures not available for a specific reference period and (...) for figures not applicable."
+15,"The CANSIM table 105-0205 was an update of CANSIM table 105-0005. For more current Canadian Community Health Survey (CCHS) data, please refer to the following information <a href=""http://www.statcan.gc.ca/cgi-bin/imdb/p2SV.pl?Function=getSurvey&SDDS=3226&lang=en&db=imdb&adm=8&dis=2"">CCHS</a>."
+
+"Correction ID","Correction Date","Correction Note"
+
+
